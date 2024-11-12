@@ -1,14 +1,14 @@
 {
   "domain": "solax_modbus",
-  "name": "SolaX Inverter Modbus",
+  "name": "Inverter Modbus",
   "after_dependencies": ["modbus"],
-  "codeowners": ["@wills106"],
+  "codeowners": ["@sthome-cz"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://homeassistant-solax-modbus.readthedocs.io/",
   "integration_type": "hub",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/wills106/homsassistant-solax-modbus/issues",
+  "issue_tracker": "https://github.com/sthome-cz/sth-inverter-modbus/issues",
   "requirements": ["pymodbus>=3.6.8"],
   "version": "2024.11.2"
 }
